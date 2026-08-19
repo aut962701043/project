@@ -1,0 +1,200 @@
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border: 1px solid black;
+    width: 375px;
+    position: absolute;
+    padding: 8px;
+    margin: 20px auto;
+    border-radius: 40px;
+    background: #fff;
+    box-shadow:0 0 20px rgba(0, 0,0, 0.3) ;
+    height: 812px;
+    align-items: center;
+    
+}
+.edit img{
+    width: 30px;
+    height: 30px;
+}
+.edit{
+    display: flex;
+    padding: 15px 10px;
+    text-align: center;
+    align-items: center;
+    gap:12px;
+}
+    
+.post img{
+    border-radius:100%;
+    width: 100px;
+    height: 100px;
+}
+
+.stats{
+    display: flex;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1.5rem;
+    min-width: 60px;
+}
+.post{
+    display: flex;
+   
+    padding: 15px 10px;
+    align-items: center;
+    
+}
+.item h5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 3.5px;
+    margin-bottom: 0.2rem;
+}
+.item p{
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5px;
+}
+.bird h3 {
+font-size: 17px;
+font-weight: 600;
+margin: 0;
+}
+.bird{
+display: flex;
+align-items: center;
+flex: 1;
+justify-content: center;
+gap: 0px;
+margin-left: 1.5px;
+}
+.that{
+    margin-bottom: 10px;
+}
+.change {
+    display: flex; 
+    gap:8px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.current{
+    flex: 1;
+    background: #efefef;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 16px;
+    font-size: 14px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.solt{
+    border: none;
+    background-color: #efefef;
+    border-radius: 8px;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+ .text{
+    background-color: #f2f2f2;
+    border: 1px solid #dbdbdb;
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    cursor: pointer;
+    align-items: center;
+    gap: 4px;
+    border-radius: 20px;
+ } 
+ .current:hover,.solt:hover,.text:hover{
+    background: #dbdbdb;
+ }
+ .tab{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin-top: 10px;
+ }
+.equal{
+    opacity: 0.6;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.equal:first-child{
+    opacity: 1;
+}
+.line{
+    border: none;
+    border-top:1px solid #dbdbdb ;
+    margin: 0;
+    
+}
+
+.modi{
+    gap: 20px;
+    display: flex;
+    padding: 20px 16px;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.car{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid #dbdbdb;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+.car img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.car p{
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #262626;
+}
+.control{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 3px;
+}
+.cow{
+    height: 400px;
+overflow-y: auto;
+overflow-x: hidden;
+object-fit: cover;
+}
+.cow::-webkit-scrollbar{
+    width: 0px;
+}
+.not{
+ width: 100%;
+object-position: center top;
+object-fit: cover;
+display: block;
+aspect-ratio: 1/1.2;
+}
