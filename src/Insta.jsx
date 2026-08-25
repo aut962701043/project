@@ -91,4 +91,4 @@ function Insta(props){
     </div>
  );
 }
-export default Insta
+
