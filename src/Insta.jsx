@@ -89,15 +89,6 @@ function Insta(props){
             </div>
             </div>
     </div>
-            
-            
-
-            
-
-        
-        
-    );
-
-    
+ );
 }
 export default Insta
